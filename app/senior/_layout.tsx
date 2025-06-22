@@ -20,8 +20,7 @@ export default function SeniorLayout() {
 
         <Header onEmergency={handleEmergency} />
         <Stack screenOptions={{ headerShown: false }}>
-          {/* <Stack.Screen name="page" />
-      <Stack.Screen name="community" /> */}
+  
         </Stack>
       </SafeAreaView>
     </>

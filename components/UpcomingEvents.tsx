@@ -1,6 +1,6 @@
 import { Ionicons } from "@expo/vector-icons"
 import { Text, TouchableOpacity, View } from "react-native"
-import type { Event } from "../app/senior/page"
+import type { Event } from "../app/senior"
 
 interface UpcomingEventsProps {
   events: Event[]

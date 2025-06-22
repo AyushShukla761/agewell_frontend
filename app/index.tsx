@@ -1,4 +1,3 @@
-import { Ionicons } from "@expo/vector-icons";
 import { useRouter } from "expo-router";
 import { Text, TouchableOpacity, View } from "react-native";
 export default function Index() {
@@ -12,7 +11,7 @@ export default function Index() {
         NativeWind is working with Expo Router
       </Text>
       <TouchableOpacity
-                className="p-4 flex-1 mr-2"
+                className="p-4 mr-2"
                 style={{
                   backgroundColor: "#d5dbda",
                   borderRadius: 12,
@@ -22,9 +21,8 @@ export default function Index() {
                 onPress={() => router.push("/senior")}
                 activeOpacity={0.8}
               >
-                <View className="flex-row items-center justify-between">
-                  <Text className="text-black font-bold text-base">Learspace</Text>
-                  <Ionicons name="school" size={20} color="white" />
+                <View className="items-center justify-between">
+                  <Text className="text-black font-bold text-base">Senior Page</Text>
                 </View>
               </TouchableOpacity>
       

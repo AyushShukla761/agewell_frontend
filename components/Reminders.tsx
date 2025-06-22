@@ -1,6 +1,6 @@
 import { Ionicons } from "@expo/vector-icons"
 import { Text, TouchableOpacity, View } from "react-native"
-import type { Reminder } from "../app/senior/page"
+import type { Reminder } from "../app/senior"
 
 interface RemindersProps {
   reminders: Reminder[]
